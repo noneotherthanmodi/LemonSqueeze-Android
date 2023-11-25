@@ -56,7 +56,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun LemonadeApp() {
 
-
     var steps by remember { mutableStateOf(1) }
     var squeezLemonCount by remember { mutableStateOf(0) }
 
@@ -191,8 +190,6 @@ fun LemonadeApp() {
         }
     }
 }
-
-
 
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
